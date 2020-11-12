@@ -5,12 +5,11 @@ console.log(mailUtente);
 var listaMail = ['mail1@gmail.com', 'mail2@gmail.com', 'mail3@gmail.com']
 console.log(listaMail);
 // verifica che la mail inserita dall'utente sia tra le mail inserite nella mail list
+var result = false;
 for (var i = 0; i < listaMail.length; i++) {
   console.log(listaMail[i]);
-  if (listaMail == mailUtente) {
-    var result = true;
-  }else {
-    result = false;
+  if (listaMail == mailUtente[i]) {
+    result = true;
   }
   console.log(result);
 }
