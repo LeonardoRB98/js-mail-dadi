@@ -7,7 +7,7 @@ console.log("computer number " + computerNumber);
 // confronta il numero del giocatore con quello del computer stabilisci quale dei due è maggiore
 if (playerNumber > computerNumber) {
   // messaggio del vincitore
-  alert("player win!");
+  alert("player wins!");
 } else {
-  alert("computer win!");
+  alert("computer wins!");
 }
