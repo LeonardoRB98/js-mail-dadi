@@ -8,6 +8,8 @@ console.log("computer number " + computerNumber);
 if (playerNumber > computerNumber) {
   // messaggio del vincitore
   alert("player wins!");
+} if (playerNumber == computerNumber) {
+  alert("pareggio!");
 } else {
   alert("computer wins!");
 }
